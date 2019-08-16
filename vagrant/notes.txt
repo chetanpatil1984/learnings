@@ -6,6 +6,7 @@ sudo dnf localinstall vagrant_2.2.5_x86_64.rpm
 vagrant -v
 mkdir vagrant-workspace/generic-oracle8
 cd vagrant-workspace/generic-oracle8
+cat Vagrantfile
 vagrant init generic/oracle8
 vagrant suspend
 vagrant halt
