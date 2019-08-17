@@ -8,7 +8,12 @@ mkdir vagrant-workspace/generic-oracle8
 cd vagrant-workspace/generic-oracle8
 cat Vagrantfile
 vagrant init generic/oracle8
-vagrant suspend
-vagrant halt
-vagrant up
+
+# Should run from folder where vagrant init was invoked from.
+# saves current state of vm
+vagrant suspend 
+# destroys current state of vm. It is like shutdown.
+vagrant halt 
+vagrant up 
 vagrant status
+vagrant ssh
