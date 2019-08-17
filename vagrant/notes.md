@@ -24,6 +24,7 @@ cat Vagrantfile
 vagrant suspend 
 # Destroys current state of VM. It is like shutdown.
 vagrant halt
+vagrant resume
 vagrant up 
 vagrant status
 vagrant ssh
