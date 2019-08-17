@@ -29,3 +29,12 @@ vagrant up
 vagrant status
 vagrant ssh
 ```
+
+### Vagrantfile configuration examples
+
+```
+# Create host-only network adapter
+  config.vm.provider "virtualbox" do |vb|
+      config.vm.network "private_network", :type => 'dhcp', :adapter => 2
+  end
+```
