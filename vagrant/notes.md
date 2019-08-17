@@ -12,24 +12,18 @@ Fedora linux 30
 `sudo dnf localinstall vagrant_2.2.5_x86_64.rpm`  
 
 ### Example usage
-```
+```console
 vagrant -v
 mkdir vagrant-workspace/generic-oracle8
 cd vagrant-workspace/generic-oracle8
 vagrant init generic/oracle8
-```
-**VM configuration done via Vagrantfile.**
-```
+# VM configuration done via Vagrantfile.
 cat Vagrantfile
-```
-**Should run from folder where vagrant init was invoked from.**
-**Saves current state of VM.**
-```
+# Should run from folder where vagrant init was invoked from.
+# Saves current state of VM.
 vagrant suspend 
-```
-**Destroys current state of VM. It is like shutdown.**
-```
-vagrant halt 
+# Destroys current state of VM. It is like shutdown.
+vagrant halt
 vagrant up 
 vagrant status
 vagrant ssh
