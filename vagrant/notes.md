@@ -16,12 +16,19 @@ Fedora linux 30
 vagrant -v
 mkdir vagrant-workspace/generic-oracle8
 cd vagrant-workspace/generic-oracle8
-cat Vagrantfile
 vagrant init generic/oracle8
+```
+# VM configuration done via Vagrantfile
+```
+cat Vagrantfile
+```
 # Should run from folder where vagrant init was invoked from.
-# saves current state of vm
+# Saves current state of vm
+```
 vagrant suspend 
-# destroys current state of vm. It is like shutdown.
+```
+# Destroys current state of vm. It is like shutdown.
+```
 vagrant halt 
 vagrant up 
 vagrant status
