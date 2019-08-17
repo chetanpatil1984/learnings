@@ -6,7 +6,7 @@ Fedora linux 30
 
 [VirtualBox download](https://www.virtualbox.org/wiki/Downloads)  
 `sudo dnf localinstall VirtualBox-6.0-6.0.10_132072_fedora29-1.x86_64.rpm`  
-| Also install the extension pack if required  
+*\*Also install the extension pack if required*  
 
 [Vagrant download](https://www.vagrantup.com/downloads.html)  
 `sudo dnf localinstall vagrant_2.2.5_x86_64.rpm`  
